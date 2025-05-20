@@ -159,5 +159,5 @@ io.on("connect", (socket) => {
 });
 
 httpsServer.listen(config.port, () => {
-  console.log(`Server is running on https://192.168.0.200:${config.port}`);
+  console.log(`Server is running on https://localhost:${config.port}`);
 });
