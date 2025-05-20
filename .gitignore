@@ -1,0 +1,5 @@
+node_modules
+config/ca.crt
+config/ca.key
+config/cert.crt
+config/cert.key
