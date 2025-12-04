@@ -119,6 +119,13 @@
       <script src="https://192.168.0.200:4000/socket.io/socket.io.min.js"></script>
       <!-- include mediasoup client -->
       <script src="mediasoup-client.min.js"></script>
+
+      <script src="dist/mediasoup-client-bundle.js"></script>
+
+      <script>
+        console.log("mediasoupClient version:", window.mediasoupClient.version);
+        const client = new mediasoupClient.Device();
+      </script>
       <!-- MediaSoup stuff -->
       <script src="scripts.js"></script>
       <!-- button listener -->
